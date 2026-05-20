@@ -10,7 +10,7 @@ const startServer=async() =>{
         console.log("Database connected");
 
         app.listen(PORT,()=>{
-            console.log(`server is running on ${PORT}`);
+            console.log(`server is running on http://localhost:${PORT}`);
         });
     } catch (error){
         console.error(error.message);
